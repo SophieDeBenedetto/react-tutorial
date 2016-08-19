@@ -29,7 +29,7 @@ var Stream = React.createClass({
       return (
         <StreamTweet
           tweet={tweet}
-          onAddTweetToCollection={this.props.AddTweetToCollection} />
+          onAddTweetToCollection={this.props.onAddTweetToCollection} />
       );
     }
 

@@ -10,11 +10,14 @@ var Application = React.createClass({
   },
 
   addTweetToCollection: function (tweet) {
+    debugger;
+    console.log('in addTweetToCollection')
     var collectionTweets = this.state.collectionTweets;
     collectionTweets[tweet.id] = tweet;
     this.setState({
       collectionTweets: collectionTweets
     });
+    console.log(this.state.collectionTweets)
   },
 
   removeTweetFromCollection: function (tweet) {
