@@ -7812,6 +7812,7 @@ module.exports = yeast;
 var AppDispatcher = require('../dispatcher/AppDispatcher');
 
 function receiveTweet(tweet) {
+  debugger;
   console.log("I've received a new tweet and now will dispatch it together with a new action. Look at me, I'm so smart");
   var action = {
     type: 'receive_tweet',
@@ -7830,7 +7831,7 @@ var ReactDOM = require('react-dom');
 
 var Application = require('./components/Application.react');
 var WebAPIUtils = require('./utils/WebAPIUtils');
-
+debugger;
 WebAPIUtils.initializeStreamOfTweets();
 
 // ReactDOM.render(<Application />, document.getElementById('react-application'));
@@ -8430,6 +8431,7 @@ var TweetActionCreators = require('../actions/TweetActionCreators');
 
 function initializeStreamOfTweets() {
   console.log('initializing tweet stream...');
+  debugger;
   SnapkiteStreamClient.initializeStream(TweetActionCreators.receiveTweet);
 }
 
