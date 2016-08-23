@@ -63,18 +63,3 @@ var CollectionRenameForm = React.createClass({
 });
 
 module.exports = CollectionRenameForm;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
