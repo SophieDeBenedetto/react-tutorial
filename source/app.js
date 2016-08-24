@@ -5,4 +5,4 @@ var Application = require('./components/Application.react');
 var WebAPIUtils = require('./utils/WebAPIUtils');
 WebAPIUtils.initializeStreamOfTweets();
 
-// ReactDOM.render(<Application />, document.getElementById('react-application'));
+ReactDOM.render(<Application />, document.getElementById('react-application'));

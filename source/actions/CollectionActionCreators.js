@@ -30,6 +30,7 @@ module.exports = {
     var action = {
       type: 'set_collection_name', 
       collectionName: collectionName
-    }
+    };
+    AppDispatcher.dispatch(action);
   }
 }

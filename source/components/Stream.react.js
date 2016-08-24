@@ -10,7 +10,7 @@ var Stream = React.createClass({
     }
   },
 
-  componenDidMount: function () {
+  componentDidMount: function () {
     TweetStore.addChangeListener(this.onTweetChange);
   },
 

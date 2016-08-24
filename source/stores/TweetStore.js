@@ -36,7 +36,7 @@ function handleAction(action) {
 
 TweetStore.dispatchToken = AppDispatcher.register(handleAction);
 
-module.exports = Tweet.store;
+module.exports = TweetStore;
 
 // app/dispatchers dispatches the action to ALL stores
 // the handleAction callback function is invoked, with an argument of the action that was dispatched
