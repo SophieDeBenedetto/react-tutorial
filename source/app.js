@@ -3,7 +3,6 @@ var ReactDOM = require('react-dom');
 
 var Application = require('./components/Application.react');
 var WebAPIUtils = require('./utils/WebAPIUtils');
-debugger;
 WebAPIUtils.initializeStreamOfTweets();
 
 // ReactDOM.render(<Application />, document.getElementById('react-application'));
